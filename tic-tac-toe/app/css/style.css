@@ -1,5 +1,23 @@
+@charset "UTF-8";
 body {
   height: 100vh;
   background: linear-gradient(red, transparent 1px), linear-gradient(90deg, red, transparent 1px);
   background-size: 30px 30px;
+  overflow: hidden;
+  position: relative;
+  /*обрезаем все что выходит за body*/
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  width: 1000px;
+  background-color: aqua;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
