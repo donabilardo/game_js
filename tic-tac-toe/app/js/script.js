@@ -22,3 +22,7 @@ function init(event) {
     step = !step;
     win();
 }
+
+
+newGameButton.addEventListener('click', newGame);
+game.addEventListener('click', init);
