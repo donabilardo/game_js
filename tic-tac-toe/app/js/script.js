@@ -28,7 +28,14 @@ function init(event) {
     win();
 }
 function newGame() {
-
+    step = false;
+    count = 0;
+    res.innerText = '';
+    fields.forEach(item => {
+        item.innerHTML = '';
+        item.classList.remove('x', 'o', 'active_field');
+    });
+    game.addEventListener('click', init);
 }
 
 
