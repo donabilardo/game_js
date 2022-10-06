@@ -16,3 +16,9 @@ function stepZero(target) {
     let circleAudio = new Audio('tic-tac-toe/audio/zero.mp3');
     circleAudio.play();
 }
+function init(event) {
+    if (!step) stepCross(event.target)
+    else stepZero(event.target);
+    step = !step;
+    win();
+}
