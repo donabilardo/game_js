@@ -22,7 +22,6 @@ body {
   transform: translateY(-80%);
   transform: translateX(-50%);
   width: 1000px;
-  background-color: aqua;
   margin: 0 auto;
   flex-direction: column;
 }
