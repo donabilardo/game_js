@@ -8,11 +8,13 @@ let game = document.querySelector('.game'),
 
 function stepCross(target) {
     target.innerHTML = cross;
+    target.classList.add('x');
     let crossAudio = new Audio('tic-tac-toe/audio/cross.mp3');
     crossAudio.play();
 }
 function stepZero(target) {
     target.innerHTML = circle;
+    target.classList.add('o');
     let circleAudio = new Audio('tic-tac-toe/audio/zero.mp3');
     circleAudio.play();
 }
@@ -22,7 +24,23 @@ function init(event) {
     step = !step;
     win();
 }
+function newGame() {
 
+}
+function win() {
+    let comb = [
+        [0, 1, 2],
+        [3, 4, 5],
+        [6, 7, 8],
+        [0, 3, 6],
+        [1, 4, 7],
+        [2, 5, 8],
+        [0, 4, 8],
+        [2, 4, 6]
+    ];
+
+
+}
 
 newGameButton.addEventListener('click', newGame);
 game.addEventListener('click', init);
