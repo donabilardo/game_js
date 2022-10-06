@@ -4,6 +4,7 @@
 ## 1) Крестики нолики
 
 
-   [Перейти в каталог игры](https://github.com/donabilardo/game_js/tree/master/tic-tac-toe "Крестики нолики на Java Script")
-   
+   [Каталог GitHub](https://github.com/donabilardo/game_js/tree/master/tic-tac-toe "Крестики нолики на Java Script")
+
+   [Демо на CodePen](https://codepen.io/donabilardo/pen/YzLOWxm)   
 
